@@ -1,0 +1,165 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body,html{
+    height: 100%;
+    width: 100%;
+    background-color:#F4E5E1;
+    font-family: 'Oswald', sans-serif;
+}
+
+header{
+    width:100%;
+    height:75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    background-color:#F4E5E1;
+    opacity: 80%;
+    font-family: 'Satisfy', cursive;
+}
+
+.logo .socialicons{
+    font-size: 30px;
+    font-weight: bold;
+    color:white;
+    letter-spacing: 1.5px;
+}
+/* resizing the logo*/
+.logo img{
+height: 75px;
+width: 75px;
+padding-top: 10px;
+}
+/* removing bullets and making the list in horizontal*/
+nav li {
+    display: inline-block;
+    list-style: none;
+    padding: 10px;
+}
+/* styles for the links in the nav bar and button, text decoration=none removes the underline part of the links*/
+a,button{
+    text-decoration: none;
+    color:brown;
+    font-size: 20px;
+    cursor: pointer;
+}
+/* still working on the button(reservations) */
+button{
+    background-color:bisque;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 8px; 
+    transition:all 0.4s ease 0s ;
+}
+
+/*hover  on the navigation bar*/
+nav li a:hover{
+    color:#0088a8;
+    transition: all 0.4s ease 0s;
+}
+/* hover over the reservation button, makes its background white */
+button:hover{
+    background-color:white;
+}
+
+/* about us page, this includes a background image which covers 55% of the screen*/
+.about-section{
+  background: url(/project/img/pic2.jpg) no-repeat left;
+  background-size: 55%;
+  background-color: beige;
+  overflow: hidden;
+  padding: 100px 0;
+  /* padding top and bottom 100px and left,right 0px */
+}
+
+/* inner section refer to the text or section where about us page describes, this section covers 55% 
+with whitesmoke background */
+.inner-section{
+    width: 55%;
+    float:right;
+    background-color: whitesmoke;
+    padding: 50px;
+}
+/* font weight makes the font less or more bold, while the 900 value makes it extra bold */
+
+.inner-section h1{
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 900;
+
+}
+.text{
+    font-size: 15px;
+    color: grey;
+    line-height: 30px;
+    text-align: justify;
+    margin-bottom: 40px;
+}
+
+.foods{
+display: flex;
+justify-content: space-between;
+font-weight: 700;
+font-size: 13px;
+}
+/* media queries for width of maximum 1200px*/
+@media screen and (max-width:1200px){
+    .inner-section {
+    padding:80px;
+    }
+}
+/* media queries for width of maximum 1000px */
+@media screen and (max-width:1000px){
+.about-section {
+    background-size: 100%;
+    padding: 100px 40px;
+}
+.inner-section {
+width:100%;}
+}
+
+/* media queries for width of maximum 600 */
+@media screen and (max-width:600px){
+    .about-section {
+        padding: 0;
+    }
+    .inner-section {
+    padding: 60px;}
+    }
+footer{
+    width:100%;
+    height:200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    background-color:#F4E5E1;
+    opacity: 80%;
+    font-family: 'Oswald', sans-serif;
+}
+.timings{
+    float:right;
+    padding-top: 20px;
+    padding-right: 5px;
+    line-height: 30px;
+}
+
+.timings h2{
+    padding-bottom: 20px;
+text-transform: uppercase;}
+
+
+
+.socialicons a:hover{
+    color:#0088a8;
+    transition: all 0.4s ease 0s;
+}
+
+.socialicons a{
+    padding:5px;
+    cursor:pointer;
+}
