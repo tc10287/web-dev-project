@@ -68,7 +68,7 @@ button:hover{
 
 /* hero image positions */
 .hero-image{
-    background-image: url(/project/img/hero.jpg);
+    background-image: url(/web-dev-project/img/hero.jpg);
     background-position: center;
     background-size: cover;
     position:relative;

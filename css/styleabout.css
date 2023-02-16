@@ -68,7 +68,7 @@ button:hover{
 
 /* about us page, this includes a background image which covers 55% of the screen*/
 .about-section{
-  background: url(/project/img/pic2.jpg) no-repeat left;
+  background: url(/web-dev-project/img/pic2.jpg) no-repeat left;
   background-size: 55%;
   background-color: beige;
   overflow: hidden;
