@@ -73,6 +73,7 @@ button:hover{
     background-size: cover;
     position:relative;
     height: 80%;
+    padding-bottom: 200px;
 }
 
 
@@ -85,6 +86,17 @@ button:hover{
     background-color: black;
 }
 /* contact form  and map, trying to align side by side*/
+.reviews{
+    padding: 40px 0px;
+    background-color:bisque;
+    color: brown;
+    text-align: center;
+    display: flex-box;
+}
+
+.reviewS{
+max-width: 160px;
+}
 
 #contact-block{
     width:80%;
