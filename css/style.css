@@ -91,12 +91,9 @@ button:hover{
     background-color:bisque;
     color: brown;
     text-align: center;
-    display: flex-box;
 }
 
-.reviewS{
-max-width: 160px;
-}
+
 
 #contact-block{
     width:80%;
